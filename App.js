@@ -2,11 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/Ionicons'
-import { Explore } from './screens';
-import { Saved } from './screens';
-import { Trips } from './screens';
-import { Inbox } from './screens';
-import { Profile } from './screens';
+import Explore from '@screens/Explore';
+import Saved from '@screens/Saved';
+import Trips from '@screens/Trips';
+import Inbox from '@screens/Inbox';
+import Profile from '@screens/Profile';
 
 export default createBottomTabNavigator({
   Explore: {

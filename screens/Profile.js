@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { 
+import {
     View,
     Text,
     StyleSheet
@@ -8,8 +8,8 @@ import {
 class Profile extends Component {
     render() {
         return (
-            <View style={styles.container}>
-                <Text>Profile</Text>
+            <View style={{ flex: 1 }}>
+                
             </View>
         );
     }
