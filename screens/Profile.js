@@ -8,8 +8,8 @@ import {
 class Profile extends Component {
     render() {
         return (
-            <View style={{ flex: 1 }}>
-                
+            <View style={styles.container}>
+                <Text>Profile</Text>
             </View>
         );
     }
