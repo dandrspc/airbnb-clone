@@ -17,7 +17,7 @@ import Category from '@Explore/Category'
 import Home from '@Explore/Home'
 import Tag from '@Explore/Tag'
 
-const { height, width } = Dimensions.get('window')
+const { width } = Dimensions.get('window')
 
 class Explore extends Component {
     componentWillMount() {
@@ -89,8 +89,7 @@ class Explore extends Component {
                             [
                                 { nativeEvent: { contentOffset: { y: this.scrollY } } }
                             ]
-                        )}
-                    >
+                        )}>
                         <View style={{
                             flex: 1, backgroundColor: 'white',
                             paddingTop: 20
